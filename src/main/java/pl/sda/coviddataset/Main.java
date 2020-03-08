@@ -3,6 +3,7 @@ package pl.sda.coviddataset;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	FileUtils fileUtils = new FileUtils();
+	fileUtils.openFile("2019_nCoV_data.csv");
     }
 }
